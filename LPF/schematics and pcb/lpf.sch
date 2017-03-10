@@ -1,0 +1,181 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C C1
+U 1 1 58C2D76A
+P 3700 3700
+F 0 "C1" H 3725 3800 50  0000 L CNN
+F 1 "65.57pF" H 3650 3900 50  0000 C TNN
+F 2 "" H 3738 3550 50  0000 C CNN
+F 3 "" H 3700 3700 50  0000 C CNN
+	1    3700 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C2
+U 1 1 58C2D8EA
+P 4000 3700
+F 0 "C2" H 4025 3800 50  0000 L CNN
+F 1 "212.21pF" H 3850 3650 50  0000 L TNN
+F 2 "" H 4038 3550 50  0000 C CNN
+F 3 "" H 4000 3700 50  0000 C CNN
+	1    4000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L2
+U 1 1 58C2D90E
+P 4150 3550
+F 0 "L2" V 4100 3550 50  0000 C CNN
+F 1 "0.429 uH" V 4200 3500 50  0000 C CNN
+F 2 "" H 4150 3550 50  0000 C CNN
+F 3 "" H 4150 3550 50  0000 C CNN
+	1    4150 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C1
+U 1 1 58C2D93F
+P 4300 3700
+F 0 "C1" H 4325 3800 50  0000 L CNN
+F 1 "65.57pF" H 4200 3550 50  0000 L CNN
+F 2 "" H 4338 3550 50  0000 C CNN
+F 3 "" H 4300 3700 50  0000 C CNN
+	1    4300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58C2D968
+P 4300 3850
+F 0 "#PWR?" H 4300 3600 50  0001 C CNN
+F 1 "GND" H 4300 3700 50  0000 C CNN
+F 2 "" H 4300 3850 50  0000 C CNN
+F 3 "" H 4300 3850 50  0000 C CNN
+	1    4300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58C2D986
+P 3700 3850
+F 0 "#PWR?" H 3700 3600 50  0001 C CNN
+F 1 "GND" H 3700 3700 50  0000 C CNN
+F 2 "" H 3700 3850 50  0000 C CNN
+F 3 "" H 3700 3850 50  0000 C CNN
+	1    3700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58C2D9A4
+P 4000 3850
+F 0 "#PWR?" H 4000 3600 50  0001 C CNN
+F 1 "GND" H 4000 3700 50  0000 C CNN
+F 2 "" H 4000 3850 50  0000 C CNN
+F 3 "" H 4000 3850 50  0000 C CNN
+	1    4000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BNC P2
+U 1 1 58C2D9CC
+P 4500 3550
+F 0 "P2" H 4510 3670 50  0000 C CNN
+F 1 "BNC" V 4610 3490 50  0000 C CNN
+F 2 "" H 4500 3550 50  0000 C CNN
+F 3 "" H 4500 3550 50  0000 C CNN
+	1    4500 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3550 4300 3550
+Wire Wire Line
+	3700 3550 3650 3550
+$Comp
+L BNC P1
+U 1 1 58C2E002
+P 3450 3550
+F 0 "P1" H 3460 3670 50  0000 C CNN
+F 1 "BNC" V 3560 3490 50  0000 C CNN
+F 2 "" H 3450 3550 50  0000 C CNN
+F 3 "" H 3450 3550 50  0000 C CNN
+	1    3450 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58C2E15B
+P 3450 3700
+F 0 "#PWR?" H 3450 3450 50  0001 C CNN
+F 1 "GND" H 3450 3550 50  0000 C CNN
+F 2 "" H 3450 3700 50  0000 C CNN
+F 3 "" H 3450 3700 50  0000 C CNN
+	1    3450 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58C2E17D
+P 4500 3750
+F 0 "#PWR?" H 4500 3500 50  0001 C CNN
+F 1 "GND" H 4500 3600 50  0000 C CNN
+F 2 "" H 4500 3750 50  0000 C CNN
+F 3 "" H 4500 3750 50  0000 C CNN
+	1    4500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L1
+U 1 1 58C2D886
+P 3850 3550
+F 0 "L1" V 3800 3550 50  0000 C CNN
+F 1 "0.429 uH" V 3900 3600 50  0000 C CNN
+F 2 "" H 3850 3550 50  0000 C CNN
+F 3 "" H 3850 3550 50  0000 C CNN
+	1    3850 3550
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
