@@ -3,9 +3,9 @@
   (general
     (links 28)
     (no_connects 9)
-    (area 0 0 0 0)
+    (area 142.202999 103.929 204.761001 120.199)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 4)
     (tracks 22)
     (zones 0)
     (modules 7)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.25)
     (user_trace_width 1)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -63,7 +63,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFFFF)
+    (visible_elements 7FFFF7FF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -147,7 +147,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 58AA844E) (tstamp 58C335A8)
-    (at 172.974 114.046 270)
+    (at 172.72 114.046 270)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /58C2D8EA)
@@ -406,6 +406,11 @@
       (net 1 GND))
   )
 
+  (gr_line (start 152.146 104.14) (end 195.072 104.14) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 195.072 119.38) (end 195.072 104.14) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 152.146 119.38) (end 195.072 119.38) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 152.146 104.14) (end 152.146 119.38) (layer Edge.Cuts) (width 0.15))
+
   (segment (start 158.692 107.634) (end 188.526 107.634) (width 1) (layer F.Cu) (net 1))
   (segment (start 188.526 116.394) (end 183.97 116.394) (width 1) (layer F.Cu) (net 1))
   (segment (start 183.97 116.394) (end 182.372 114.796) (width 1) (layer F.Cu) (net 1) (tstamp 58C80755))
@@ -413,11 +418,11 @@
   (segment (start 164.084 114.796) (end 172.974 114.796) (width 1) (layer F.Cu) (net 1))
   (segment (start 158.692 116.394) (end 162.486 116.394) (width 1) (layer F.Cu) (net 1))
   (segment (start 162.486 116.394) (end 164.084 114.796) (width 1) (layer F.Cu) (net 1) (tstamp 58C80748))
-  (segment (start 167.398 109.982) (end 164.084 113.296) (width 1) (layer F.Cu) (net 2) (status C00000))
-  (segment (start 164.084 113.296) (end 164.084 113.03) (width 1) (layer F.Cu) (net 2) (status C00000))
-  (segment (start 164.084 113.296) (end 164.084 113.284) (width 1) (layer F.Cu) (net 2) (status C00000))
-  (segment (start 154.998 112.014) (end 162.802 112.014) (width 1) (layer F.Cu) (net 2) (status 400000))
-  (segment (start 162.802 112.014) (end 164.084 113.296) (width 1) (layer F.Cu) (net 2) (tstamp 58C807C4) (status 800000))
+  (segment (start 167.398 109.982) (end 164.084 113.296) (width 1) (layer F.Cu) (net 2))
+  (segment (start 164.084 113.296) (end 164.084 113.03) (width 1) (layer F.Cu) (net 2))
+  (segment (start 164.084 113.296) (end 164.084 113.284) (width 1) (layer F.Cu) (net 2))
+  (segment (start 154.998 112.014) (end 162.802 112.014) (width 1) (layer F.Cu) (net 2))
+  (segment (start 162.802 112.014) (end 164.084 113.296) (width 1) (layer F.Cu) (net 2) (tstamp 58C807C4))
   (segment (start 168.898 109.982) (end 169.66 109.982) (width 1) (layer F.Cu) (net 3))
   (segment (start 169.66 109.982) (end 172.974 113.296) (width 1) (layer F.Cu) (net 3) (tstamp 58C80764))
   (segment (start 176.796 109.982) (end 176.288 109.982) (width 1) (layer F.Cu) (net 3))
